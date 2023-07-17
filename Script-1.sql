@@ -147,7 +147,7 @@ CREATE table if not exists eg_usm_slum_question_lookup(
     lastmodifiedtime    bigint ,       
     lastmodifiedby  character varying(64)   ,
     
-    CONSTRAINT pk_eg_usm_sda_mapping PRIMARY KEY(uuid) 
+    CONSTRAINT pk_eg_usm_sda_mapping PRIMARY KEY(id) 
     );
 
 
